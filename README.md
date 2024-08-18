@@ -47,8 +47,8 @@ My original planned enhancements were to remove the original 3D objects and repl
 
 The basic overview of this enhancement is as follows. I removed most of the original objects but retained the surface table mesh to hold the randomly generated objects. Random location and color data was generated using the Mersenne Twister algorithm, then the one-by-one rendering of objects was replaced by a loop that generated objects based on an editable number. The size of the surface mesh would grow based on the number of generated objects. For a more detailed overview of this enhancement, please see the Narrative PDF and Enhancement Demonstration video below.
 
-[Enhancement 1 Narrative](Milestone 2 Narrative.joel garcia.pdf)
-[List of Enhancements 1](Milestone 2 List of Enhancements.pdf)
+[Enhancement 1 Narrative](Milestone 2 Narrative.joel garcia.pdf "Enhancement 1 Narrative")
+[List of Enhancements 1](Milestone 2 List of Enhancements.pdf "List of Enhancements 1")
 [Enhancement 1 Demonstration Video](https://youtu.be/1YqnTj6-R4A)
 
 ## Enhancement 2 – Algorithms and Data Structures 
