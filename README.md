@@ -47,24 +47,30 @@ My original planned enhancements were to remove the original 3D objects and repl
 
 The basic overview of this enhancement is as follows. I removed most of the original objects but retained the surface table mesh to hold the randomly generated objects. Random location and color data was generated using the Mersenne Twister algorithm, then the one-by-one rendering of objects was replaced by a loop that generated objects based on an editable number. The size of the surface mesh would grow based on the number of generated objects. For a more detailed overview of this enhancement, please see the Narrative PDF and Enhancement Demonstration video below.
 
-[Enhancement 1 Narrative](Enhancement-1-Narrative.joel garcia.pdf "Enhancement 1 Narrative")
-[List of Enhancements 1](List-of-Enhancements-1.pdf "List of Enhancements 1")
+[Enhancement 1 Narrative](Enhancement-1-Narrative.pdf)
+
+[List of Enhancements 1](List-of-Enhancements-1.pdf)
+
 [Enhancement 1 Demonstration Video](https://youtu.be/1YqnTj6-R4A)
 
 ## Enhancement 2 – Algorithms and Data Structures 
 
 The basic overview of this enhancement is as follows. I modified one of the lighting objects from the original project to serve as a drone object, then created the logic for it to traverse the environment based on possible spawn points for the random objects. I implemented a “drone view” function that would provide a top-down view of the surface and used a built-in OpenGL pixel reader function to serve as a simulated camera for object detection. Finally, I created an algorithm that upon finding red-flagged objects, would output the object location to the console. For a more detailed overview of this enhancement, please see the Narrative PDF and Enhancement Demonstration video below.
 
-[Enhancement 2 Narrative](Enhancement-2-Narrative.joel garcia.pdf)
+[Enhancement 2 Narrative](Enhancement-2-Narrative.pdf)
+
 [List of Enhancements 2](List-of-Enhancements-2.pdf)
+
 [Enhancement 2 Demonstration Video](https://youtu.be/Z8REHoi924g)
 
 ## Enhancement 3 – Databases 
 
 The basic overview of this enhancement is as follows. For this enhancement, I had to incorporate Python for its data visualization tools. Most of the work for this enhancement was in setting up the libraries and modules needed for C++ and Python to talk to each other, then more work in testing that Python code written in C++ was executing correctly. After all that, I set up a function to write flagged objects to a CSV file, then passed that file to Python so it could create a data frame. Finally, I used Python’s data visualization tools to create a heatmap of random object locations. For a more detailed overview of this enhancement, please see the Narrative PDF and Enhancement Demonstration video below.
 
-[Enhancement 3 Narrative](Enhancement-3-Narrative.joel garcia.pdf)
+[Enhancement 3 Narrative](Enhancement-3-Narrative.pdf)
+
 [List of Enhancements 3](List-of-Enhancements-3.pdf)
+
 [Enhancement 3 Demonstration Video](https://youtu.be/nTZIv0KVYhw)
 
 ### Capstone Project File
