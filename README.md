@@ -17,7 +17,7 @@ It's worth noting that while all of my studies for this program were online, the
 ## Goals
 My interest in pursuing computer science has always been to work with drones and autonomous systems. This has been my goal since day 1 and all my decisions and elective coursework have been informed by that goal. Furthermore, I have applications pending for graduate work that will hopefully get me closer to working with those systems, so I decided that the best measure of my readiness was to complete a capstone project that encompasses these goals. This is why the project I selected for all of my enhancements was originally from CS-360 Computer Graphics and Visualization, which is known as one of the most difficult courses in the computer science program. While this increased the level of difficulty for my final capstone project, I felt that it was important for me to show that I have some basic proficiency with simple autonomous systems.
 
-### Journal: Self-Reflections
+## Journal: Self-Reflections
 
 [Journal: Self-Introduction](CS499/CS499-M1-1_Paper.pdf "Journal: Self-Introduction")
 
@@ -43,7 +43,7 @@ My original planned enhancements were to remove the original 3D objects and repl
 
 [Code Review and Enhancement Plan Video](https://youtu.be/i5q9_nD8WMU)
 
-### Enhancement 1 – Software Design and Engineering 
+## Enhancement 1 – Software Design and Engineering 
 
 The basic overview of this enhancement is as follows. I removed most of the original objects but retained the surface table mesh to hold the randomly generated objects. Random location and color data was generated using the Mersenne Twister algorithm, then the one-by-one rendering of objects was replaced by a loop that generated objects based on an editable number. The size of the surface mesh would grow based on the number of generated objects. For a more detailed overview of this enhancement, please see the Narrative PDF and Enhancement Demonstration video below.
 
@@ -51,7 +51,7 @@ The basic overview of this enhancement is as follows. I removed most of the orig
 [List of Enhancements 1](Milestone 2 List of Enhancements.pdf)
 [Enhancement 1 Demonstration Video](https://youtu.be/1YqnTj6-R4A)
 
-### Enhancement 2 – Algorithms and Data Structures 
+## Enhancement 2 – Algorithms and Data Structures 
 
 The basic overview of this enhancement is as follows. I modified one of the lighting objects from the original project to serve as a drone object, then created the logic for it to traverse the environment based on possible spawn points for the random objects. I implemented a “drone view” function that would provide a top-down view of the surface and used a built-in OpenGL pixel reader function to serve as a simulated camera for object detection. Finally, I created an algorithm that upon finding red-flagged objects, would output the object location to the console. For a more detailed overview of this enhancement, please see the Narrative PDF and Enhancement Demonstration video below.
 
@@ -59,7 +59,7 @@ The basic overview of this enhancement is as follows. I modified one of the ligh
 [List of Enhancements 2](Milestone 3 List of Enhancements.pdf)
 [Enhancement 2 Demonstration Video](https://youtu.be/Z8REHoi924g)
 
-### Enhancement 3 – Databases 
+## Enhancement 3 – Databases 
 
 The basic overview of this enhancement is as follows. For this enhancement, I had to incorporate Python for its data visualization tools. Most of the work for this enhancement was in setting up the libraries and modules needed for C++ and Python to talk to each other, then more work in testing that Python code written in C++ was executing correctly. After all that, I set up a function to write flagged objects to a CSV file, then passed that file to Python so it could create a data frame. Finally, I used Python’s data visualization tools to create a heatmap of random object locations. For a more detailed overview of this enhancement, please see the Narrative PDF and Enhancement Demonstration video below.
 
