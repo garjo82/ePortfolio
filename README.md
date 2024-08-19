@@ -19,17 +19,25 @@ My interest in pursuing computer science has always been to work with drones and
 
 ## Journal: Self-Reflections
 
-[Journal: Self-Introduction](CS499/CS499-M1-1_Paper.pdf "Journal: Self-Introduction")
+[Journal 1: What Makes a Productive Code Review](Journal-1-Code-Review.pdf)
 
-TBD
+In this journal, I discuss my plans for my code review video.
 
-[Journal: Career Choice](CS499/CS499-M4-1_Paper.pdf "Journal: Career Choice")
+[Journal 2: Marketing With ePorfolios](Journal-2-ePortfolio-Plan)
 
-TBD
+In this journal, I discuss my plans for creating an ePortfolio.
 
-[Journal: Capstone Reflection](CS499/CS499-M7-1_Paper.pdf "Journal: Capstone Reflection")
+[Journal 3: Career Choice](Journal-3-Career-Choice.pdf)
 
-TBD
+In this journal, I discuss my career goals.
+
+[Journal 4: Computer Science Trends](Journal-4-Current-Trends.pdf)
+
+In this journal, I discuss current trends in computer science.
+
+[Journal 5: Emerging Technology](Journal-5-Emerging-Technology.pdf)
+
+In this journal, I discuss emerging technology.
 
 ### Original Artifact Selection
 
