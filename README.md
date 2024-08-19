@@ -19,6 +19,8 @@ My interest in pursuing computer science has always been to work with drones and
 
 ## Journal: Self-Reflections
 
+This section contains journal entries tracking my progress throughout the capstone.
+
 [Journal 1: What Makes a Productive Code Review](Journal-1-Code-Review.pdf)
 
 In this journal, I discuss my plans for my code review video.
@@ -39,17 +41,19 @@ In this journal, I discuss current trends in computer science.
 
 In this journal, I discuss emerging technology.
 
-### Original Artifact Selection
+### Original Artifact Selection and Enhancement Plan
 
 The original project was from CS-330, Computer Graphics and Visualization. In this project, we were asked to create a 3D environment based on an image we selected at the beginning of the course using OpenGL and C++. For my project, I selected a table setting of a meal.
 
-### Original Enhancement Plan
-
 My original planned enhancements were to remove the original 3D objects and replace them with randomly generated objects. These objects would be placed randomly and would have color or texture randomly applied. I would then create an autonomous object or drone that would travel over the environment looking for objects below, and upon finding them, determine if they were of a certain color and flag them if they were. Finally, my original enhancement plan was to create a database of flagged objects and do something with the data. While I was originally unclear on what to do with flagged object data, I eventually settled on generating a heatmap of where random objects spawned over time as this might be a common use for such data in a real-world scenario. It’s worth noting that one of the most common uses for autonomous drones is for surveillance and mapping, and this is one of the primary reasons for my enhancement plans.
 
-### Original Code Review
+[Introduction, Enhancement Plan Narrative, and Pseudocode](Introduction-and-Enhancement-Plan.pdf)
 
-[Code Review and Enhancement Plan Video](https://youtu.be/i5q9_nD8WMU)
+This document serves as a basic introduction and enhancement plan narrative and contains my initial pseudocode.
+
+[OriginalCode Review and Enhancement Plan Video](https://youtu.be/i5q9_nD8WMU)
+
+This code review video demonstrates my original project artifact and discusses plans for enhancement.
 
 ## Enhancement 1 – Software Design and Engineering 
 
@@ -57,9 +61,16 @@ The basic overview of this enhancement is as follows. I removed most of the orig
 
 [Enhancement 1 Narrative](Enhancement-1-Narrative.pdf)
 
+This document discusses the purpose and rationale for the enhancements as well as reflects on their implementation.
+
 [List of Enhancements 1](List-of-Enhancements-1.pdf)
 
+This document contains screenshots and explanations of the refactored code.
+
 [Enhancement 1 Demonstration Video](https://youtu.be/1YqnTj6-R4A)
+
+This video provides a demonstration of the working code enhancements.
+
 
 ## Enhancement 2 – Algorithms and Data Structures 
 
@@ -67,19 +78,28 @@ The basic overview of this enhancement is as follows. I modified one of the ligh
 
 [Enhancement 2 Narrative](Enhancement-2-Narrative.pdf)
 
+This document discusses the purpose and rationale for the enhancements as well as reflects on their implementation.
+
 [List of Enhancements 2](List-of-Enhancements-2.pdf)
 
+This document contains screenshots and explanations of the refactored code.
+
 [Enhancement 2 Demonstration Video](https://youtu.be/Z8REHoi924g)
+
+This video provides a demonstration of the working code enhancements.
 
 ## Enhancement 3 – Databases 
 
 The basic overview of this enhancement is as follows. For this enhancement, I had to incorporate Python for its data visualization tools. Most of the work for this enhancement was in setting up the libraries and modules needed for C++ and Python to talk to each other, then more work in testing that Python code written in C++ was executing correctly. After all that, I set up a function to write flagged objects to a CSV file, then passed that file to Python so it could create a data frame. Finally, I used Python’s data visualization tools to create a heatmap of random object locations. For a more detailed overview of this enhancement, please see the Narrative PDF and Enhancement Demonstration video below.
 
 [Enhancement 3 Narrative](Enhancement-3-Narrative.pdf)
+This document discusses the purpose and rationale for the enhancements as well as reflects on their implementation.
 
 [List of Enhancements 3](List-of-Enhancements-3.pdf)
+This document contains screenshots and explanations of the refactored code.
 
 [Enhancement 3 Demonstration Video](https://youtu.be/nTZIv0KVYhw)
+This video provides a demonstration of the working code enhancements.
 
 ### Capstone Project File
 
