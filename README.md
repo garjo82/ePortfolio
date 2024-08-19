@@ -25,7 +25,7 @@ This section contains journal entries tracking my progress throughout the capsto
 
 In this journal, I discuss my plans for my code review video.
 
-[Journal 2: Marketing With ePorfolios](Journal-2-ePortfolio-Plan)
+[Journal 2: Marketing With ePorfolios](Journal-2-ePortfolio-Plan.pdf)
 
 In this journal, I discuss my plans for creating an ePortfolio.
 
