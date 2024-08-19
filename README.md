@@ -93,17 +93,20 @@ This video provides a demonstration of the working code enhancements.
 The basic overview of this enhancement is as follows. For this enhancement, I had to incorporate Python for its data visualization tools. Most of the work for this enhancement was in setting up the libraries and modules needed for C++ and Python to talk to each other, then more work in testing that Python code written in C++ was executing correctly. After all that, I set up a function to write flagged objects to a CSV file, then passed that file to Python so it could create a data frame. Finally, I used Python’s data visualization tools to create a heatmap of random object locations. For a more detailed overview of this enhancement, please see the Narrative PDF and Enhancement Demonstration video below.
 
 [Enhancement 3 Narrative](Enhancement-3-Narrative.pdf)
+
 This document discusses the purpose and rationale for the enhancements as well as reflects on their implementation.
 
 [List of Enhancements 3](List-of-Enhancements-3.pdf)
+
 This document contains screenshots and explanations of the refactored code.
 
 [Enhancement 3 Demonstration Video](https://youtu.be/nTZIv0KVYhw)
+
 This video provides a demonstration of the working code enhancements.
 
 ### Capstone Project File
 
-As my capstone project file size exceeds the upload limit on Github I must host a zipped file on Google Drive. To run the program, download and install Visual Studio, then download and unzip the file. Click on the sln file in the project folder, then click run program.
+As my capstone project file size exceeds the upload limit on Github I must host a zipped file on Google Drive. To run the program, download and install Visual Studio, then download and unzip the file. Click on the .sln file in the project folder, then click run program.
 
 [Capstone Project - Google Drive](https://drive.google.com/file/d/1h6vJA_GIiURUCkxcHVs2OxETu_1P3ysO/view?usp=drive_link)
 
